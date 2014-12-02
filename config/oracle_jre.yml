@@ -20,10 +20,10 @@
 # e.g.  repository_root: "http://example.com/oracle-jre/{platform}/{architecture}"
 
 repository_root: ""
-version: 1.8.0_+
+version: 1.7.0_+
 memory_sizes:
-  metaspace: 64m..
-#  permgen: 64m..
+  metaspace: 512m..
+  permgen: 512m..
 memory_heuristics:
   heap: 75
   metaspace: 10
